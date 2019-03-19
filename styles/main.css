@@ -121,8 +121,10 @@ a {
 
 /* Imagem de destaque */
 .destaque img {
-    max-width: 70%;
-    margin: 0 0 0 auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 74%;
     float: right;
 }
 
