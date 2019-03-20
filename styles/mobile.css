@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1296px) {
+        .compras {
+            padding-right: 5em!important;
+        }
+
+        .menu-departamentos h2 {
+            font-size: 12pt;
+        }
+
+        .painel {
+            width: 100%!important;
+            margin: 1em auto!important;
+            display: block;
+        }
+
+        .paineis article {
+            width: 49.5%;
+        }
+
+}
+
+@media screen and (max-width: 920px) {
+    .compras {
+        width: 50%!important;
+    }
+
+    .busca, .menu-departamentos {
+        width: 100%!important;
+        margin: 1em auto;
+    }
+
+    .busca form input[type="search"] {
+        width: 80%;
+    }
+
+    .busca form input[type="image"] {
+        width: 3.5%!important;
+    }
+
+    .destaque img {
+        max-width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .compras {
+        float: none;
+        width: 100%!important;
+        display: block!important;
+    }
+}
